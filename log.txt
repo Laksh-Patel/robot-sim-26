@@ -1,0 +1,191 @@
+[0:00:00] ---
+[0:00:00] Student Robotics OS 2026.0.0
+[0:00:00] Is there something you'd like us to add to the kit or API? 💡
+[0:00:00] Perhaps there's something you think we should improve? 🛠️
+[0:00:00] Let us know your feedback about your experience using our kit at https://studentrobotics.org/kit-feedback 🗣️
+[0:00:00] ---
+[0:00:00] === LOG STARTED ===
+[0:00:00.208656] STATUS >> RUNNING ROBOT.py
+[0:00:01.029874] STATUS >> attempting to run main...
+[0:00:01.046428] sr.robot3.robot - INFO - sr.robot3 version 2026.0.2
+[0:00:01.108891] sr.robot3.serial_wrapper - INFO - Connected to board Power Board v4: sr0XT25
+[0:00:01.132699] sr.robot3.serial_wrapper - INFO - Connected to board MCV4B: SR0KG17
+[0:00:01.149039] sr.robot3.serial_wrapper - INFO - Connected to board MCV4B: SR0TEA
+[0:00:03.179864] sr.robot3.serial_wrapper - INFO - Connected to board Ruggeduino: 7523031383335161A021
+[0:00:06.896636] sr.robot3.robot - INFO - Found PowerBoard, serial: sr0XT25
+[0:00:06.913164] sr.robot3.robot - INFO - Found MotorBoard, serial: SR0KG17
+[0:00:06.929318] sr.robot3.robot - INFO - Found MotorBoard, serial: SR0TEA
+[0:00:06.945374] sr.robot3.robot - INFO - Found Arduino, serial: 7523031383335161A021
+[0:00:06.961447] sr.robot3.robot - INFO - Found AprilCamera, serial: UVC Camera (046d:0825) - 1
+[0:00:06.977448] sr.robot3.robot - INFO - Waiting for start button.
+[0:00:12.645965] sr.robot3.robot - INFO - Start signal received; continuing.
+[0:00:12.666431] sr.robot3.timeout - INFO - Timeout set: 150s
+[0:00:12.696608] STATUS >> initialising drivers...
+[0:00:12.718601] STATUS >> drivers initialised!
+[0:00:12.736277] STATUS >> calculating initial position...
+[0:00:13.488232] POSITION CALCULATION: (-1.846, 0.341, 0.007)
+[0:00:13.504738] 
+[0:00:14.017621] Intersection IDs: [116, 102]
+[0:00:14.034337] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:14.548616] Intersection IDs: [116, 102]
+[0:00:14.565349] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:14.804387] ERROR !! [x1] unhashable type: 'list'
+[0:00:14.821382] Traceback (most recent call last):
+[0:00:14.837533]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:14.853616]     finished = bot.tick()
+[0:00:14.869552]                ^^^^^^^^^^
+[0:00:14.885602]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:14.901823]     self.complete_ret = self.current_process.complete()
+[0:00:14.918191]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:14.934596]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:14.950836]     sub_process.tick()
+[0:00:14.967204]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:14.983549]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:15.001095]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:15.018590] TypeError: unhashable type: 'list'
+[0:00:15.088484] POSITION CALCULATION: (-1.969, 0.384, 0.002)
+[0:00:15.105086] 
+[0:00:15.613330] Intersection IDs: [116, 102]
+[0:00:15.629997] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:15.869131] ERROR !! [x2] unhashable type: 'list'
+[0:00:15.885871] Traceback (most recent call last):
+[0:00:15.902003]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:15.918099]     finished = bot.tick()
+[0:00:15.933889]                ^^^^^^^^^^
+[0:00:15.949812]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:15.965805]     self.complete_ret = self.current_process.complete()
+[0:00:15.981918]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:15.997917]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:16.014063]     sub_process.tick()
+[0:00:16.030171]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:16.046299]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:16.064957]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:16.081864] TypeError: unhashable type: 'list'
+[0:00:16.156656] POSITION CALCULATION: (-2.002, 0.388, 0.003)
+[0:00:16.173048] 
+[0:00:16.682020] Intersection IDs: [116, 102]
+[0:00:16.698552] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:16.938001] ERROR !! [x3] unhashable type: 'list'
+[0:00:16.954725] Traceback (most recent call last):
+[0:00:16.970769]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:16.986690]     finished = bot.tick()
+[0:00:17.002432]                ^^^^^^^^^^
+[0:00:17.018387]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:17.034459]     self.complete_ret = self.current_process.complete()
+[0:00:17.050700]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:17.066829]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:17.083075]     sub_process.tick()
+[0:00:17.099197]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:17.115496]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:17.134890]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:17.152872] TypeError: unhashable type: 'list'
+[0:00:17.224561] POSITION CALCULATION: (-2.022, 0.42, -0.004)
+[0:00:17.241623] 
+[0:00:17.751715] Intersection IDs: [116, 102]
+[0:00:17.769219] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:18.008992] ERROR !! [x4] unhashable type: 'list'
+[0:00:18.028881] Traceback (most recent call last):
+[0:00:18.046063]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:18.062939]     finished = bot.tick()
+[0:00:18.079698]                ^^^^^^^^^^
+[0:00:18.096783]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:18.113851]     self.complete_ret = self.current_process.complete()
+[0:00:18.130875]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:18.147933]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:18.165360]     sub_process.tick()
+[0:00:18.182579]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:18.205658]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:18.223793]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:18.241926] TypeError: unhashable type: 'list'
+[0:00:18.317475] POSITION CALCULATION: (-2.025, 0.419, -0.004)
+[0:00:18.333984] 
+[0:00:18.815831] Intersection IDs: [116, 102]
+[0:00:18.832848] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:19.071152] ERROR !! [x5] unhashable type: 'list'
+[0:00:19.088162] Traceback (most recent call last):
+[0:00:19.104393]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:19.120612]     finished = bot.tick()
+[0:00:19.136736]                ^^^^^^^^^^
+[0:00:19.153085]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:19.169504]     self.complete_ret = self.current_process.complete()
+[0:00:19.185835]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:19.202431]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:19.218949]     sub_process.tick()
+[0:00:19.235508]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:19.282009]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:19.298979]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:19.315238] TypeError: unhashable type: 'list'
+[0:00:19.358921] POSITION CALCULATION: (-2.029, 0.434, -0.007)
+[0:00:19.375584] 
+[0:00:19.884485] Intersection IDs: [116, 102]
+[0:00:19.901330] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:20.140130] ERROR !! [x6] unhashable type: 'list'
+[0:00:20.157288] Traceback (most recent call last):
+[0:00:20.173452]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:20.188068]     finished = bot.tick()
+[0:00:20.210129]                ^^^^^^^^^^
+[0:00:20.226817]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:20.243625]     self.complete_ret = self.current_process.complete()
+[0:00:20.260307]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:20.277176]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:20.293916]     sub_process.tick()
+[0:00:20.310588]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:20.397084]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:20.414470]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:20.431696] TypeError: unhashable type: 'list'
+[0:00:20.452990] POSITION CALCULATION: (-2.025, 0.42, -0.004)
+[0:00:20.469430] 
+[0:00:20.949685] Intersection IDs: [116, 102]
+[0:00:20.967526] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:21.206152] ERROR !! [x7] unhashable type: 'list'
+[0:00:21.223678] Traceback (most recent call last):
+[0:00:21.240140]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:21.257844]     finished = bot.tick()
+[0:00:21.275646]                ^^^^^^^^^^
+[0:00:21.293685]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:21.311884]     self.complete_ret = self.current_process.complete()
+[0:00:21.329856]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:21.347768]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:21.365696]     sub_process.tick()
+[0:00:21.383645]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:21.402390]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:21.421674]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:21.439782] TypeError: unhashable type: 'list'
+[0:00:21.487908] POSITION CALCULATION: (-2.023, 0.423, -0.005)
+[0:00:21.505897] 
+[0:00:22.009784] Intersection IDs: [116, 102]
+[0:00:22.028284] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:22.265853] ERROR !! [x8] unhashable type: 'list'
+[0:00:22.284430] Traceback (most recent call last):
+[0:00:22.302150]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:22.319791]     finished = bot.tick()
+[0:00:22.337518]                ^^^^^^^^^^
+[0:00:22.355524]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:22.373467]     self.complete_ret = self.current_process.complete()
+[0:00:22.391427]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:22.409337]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:22.427412]     sub_process.tick()
+[0:00:22.445473]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:22.463822]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:22.483392]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:22.502135] TypeError: unhashable type: 'list'
+[0:00:22.550434] POSITION CALCULATION: (-2.02, 0.404, 0.0)
+[0:00:22.568559] 
+[0:00:23.081814] Intersection IDs: [116, 102]
+[0:00:23.100552] FOUND MARKERS IN FIND MARKER, IDs: [116, 102]
+[0:00:23.338496] ERROR !! [x9] unhashable type: 'list'
+[0:00:23.359641] Traceback (most recent call last):
+[0:00:23.378512]   File "/media/robot/4FA7-447765/robot.py", line 28, in main
+[0:00:23.397311]     finished = bot.tick()
+[0:00:23.416021]                ^^^^^^^^^^
+[0:00:23.434689]   File "/media/robot/4FA7-447765/src/main.py", line 292, in tick
+[0:00:23.453523]     self.complete_ret = self.current_process.complete()
+[0:00:23.472514]                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:23.491158]   File "/media/robot/4FA7-447765/src/process.py", line 213, in complete
+[0:00:23.510342]     sub_process.tick()
+[0:00:23.531527]   File "/media/robot/4FA7-447765/src/process.py", line 93, in tick
+[0:00:23.551831]     self.target = self.bot.objects.get(self.marker_id, None)
+[0:00:23.571575]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0:00:23.590836] TypeError: unhashable type: 'list'
+[0:00:23.655749] POSITION CALCULATION: (-2.019, 0.403, 0.0)
+[0:00:23.673962] 
